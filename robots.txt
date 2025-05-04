@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://tomaszpielecki.github.io/cv/sitemap.xml
+
+# Pozwala wszystkim robotom wyszukiwarek na indeksowanie całej zawartości CV

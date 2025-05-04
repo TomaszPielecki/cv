@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obraz OpenGraph dla CV Tomasz Pielecki</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            width: 1200px;
+            height: 630px; /* Standardowy rozmiar dla obrazów OpenGraph */
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            position: relative;
+            overflow: hidden;
+            padding: 50px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 60px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        h2 {
+            font-size: 36px;
+            font-weight: 500;
+            margin-bottom: 40px;
+            color: #60a5fa;
+        }
+        .locations {
+            font-size: 28px;
+            color: #e2e8f0;
+            margin-bottom: 30px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            max-width: 800px;
+        }
+        .skill {
+            background-color: rgba(59, 130, 246, 0.2);
+            border: 1px solid rgba(59, 130, 246, 0.4);
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 20px;
+            color: #60a5fa;
+        }
+        .year {
+            position: absolute;
+            bottom: 40px;
+            right: 50px;
+            font-size: 24px;
+            color: #60a5fa;
+        }
+        .decorative-circle {
+            position: absolute;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+            z-index: 0;
+        }
+        .circle-1 {
+            width: 400px;
+            height: 400px;
+            top: -100px;
+            left: -100px;
+        }
+        .circle-2 {
+            width: 300px;
+            height: 300px;
+            bottom: -50px;
+            right: -50px;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="decorative-circle circle-1"></div>
+        <div class="decorative-circle circle-2"></div>
+        
+        <div class="content">
+            <h1>Tomasz Pielecki</h1>
+            <h2>Full-Stack Developer</h2>
+            
+            <div class="locations">
+                Kartuzy • Gdańsk • Gdynia • Sopot • Trójmiasto
+            </div>
+            
+            <div class="skills">
+                <div class="skill">Python</div>
+                <div class="skill">Vue.js</div>
+                <div class="skill">Nuxt 3</div>
+                <div class="skill">SEO</div>
+                <div class="skill">PHP</div>
+                <div class="skill">Data Analysis</div>
+                <div class="skill">Szukam pracy</div>
+            </div>
+            
+            <div class="year">CV 2025</div>
+        </div>
+    </div>
+</body>
+</html>
