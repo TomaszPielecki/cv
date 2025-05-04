@@ -66,15 +66,6 @@ Statyczna strona one-page zaprojektowana jako wizytówka dla firmy stolarskiej. 
 ### Vue Shop
 Nowoczesna platforma eCommerce zbudowana w oparciu o Vue.js 3 i Nuxt 3, wykorzystująca zalety SSR i SSG dla optymalnej wydajności i SEO. Implementacja dynamicznego ładowania treści, meta tagów zgodnych ze standardami Schema.org oraz optymalizacja Core Web Vitals.
 
-## Optymalizacja dla ATS (Applicant Tracking Systems)
-
-CV zostało zoptymalizowane pod kątem systemów ATS dzięki:
-- Czystej strukturze HTML
-- Odpowiedniemu użyciu nagłówków
-- Wyraźnemu wyróżnieniu kluczowych umiejętności
-- Możliwości łatwego wygenerowania PDF
-- Uwzględnieniu kluczowych słów związanych z SEO, Vue.js i Nuxt 3
-
 ---
 
 &copy; 2025 Tomasz Pielecki
